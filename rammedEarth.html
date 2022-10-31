@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Francois+One&family=Koulen&family=Oleo+Script+Swash+Caps&family=Shadows+Into+Light&family=Tapestry&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="rammedEarth.css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+    <title>Rammed Earth Houses</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="rammedEarth.js" defer></script>
+</head>
+<body>
+    <section id="intro">
+        <p id="introP">When we build, let us build forever.</p>
+    </section>
+    <section id="main">
+        <header>
+             <img id="logo" src="img/headerLogoRammed.png" alt="logoRammedEarth">
+             <ul id="menu">
+                 <li><a href="#main" class="scroll">HOME</a></li>
+                 <li><a href="#aboutUs" class="scroll">ABOUT US</a></li>
+                 <li><a href="#ourWork" class="scroll">OUR WORK</a></li>
+                 <li><a href="#contact" class="scroll">CONTACT</a></li>
+             </ul>
+        </header>
+         <div id="videoDiv">
+            <video  muted autoplay loop >
+                <source src="./video/rammedVideoEarth.mp4" type="video/mp4" />
+            </video>
+                <a id="why" href="#whyRammedEarth" class="scroll">
+                    <span id="whyQ">WHY RAMMED EARTH?</span>
+                    <i id="whyArrow" class="fa fa-angle-double-down" aria-hidden="true"></i>
+                </a>
+         </div>
+    </section>
+    <section id="whyRammedEarth" class="hide">
+    <div id="why-container">
+        <img class="whyImg" src="img/sound&fire.jpg" alt="">
+        <div class="overlay ">
+            <div class="why-text">Fire and Soundproof</div>
+        </div>
+    </div>
+    <div id="why-container">
+        <img class="whyImg" src="img/nonToxic.jpg" alt="">
+        <div class="overlay">
+            <div class="why-text">Breathable, Mold Proof and Nontoxic</div>
+        </div>
+    </div>
+    <div id="why-container">
+        <img class="whyImg" src="img/humidity&temperature.jpg" alt="">
+        <div class="overlay">
+            <div class="why-text">Regulated Humidity and Temperature</div>
+        </div>
+    </div>
+    <div id="why-container">
+        <img class="whyImg" src="img/earthquake&hurricane.jpg" alt="">
+        <div class="overlay">
+            <div class="why-text">Earthquake and Tornado Resistant</div>
+        </div>
+    </div>
+    <div id="why-container">
+        <img class="whyImg" src="img/durability.jpg" alt="">
+        <div class="overlay">
+            <div class="why-text">1000 Year Durability</div>
+        </div>
+    </div>
+    <div id="why-container">
+        <img class="whyImg" src="img/recycable&locally.jpg" alt="">
+        <div class="overlay">
+            <div class="why-text">Recycable and Locally Aviable</div>
+        </div>
+    </div>
+    </section>
+    <section id="aboutUs" class="hide">
+        <div class="about-us">
+            <img class="about-us-img" src="img/aboutUs.jpg" alt="about-us">
+            <p class="about-us-text">Rammed Earth Constructions is a new family run business with ideas and
+                purpose to make our homes and World a better place for living. We pride ourselves on the quality
+                of our work, the efficient running of our projects and our excellent customer service.
+                A friendly and professional approach with full project management ensures that our customers are
+                kept informed throughout the project. We are building on the nature way. We are building rammed
+                earth walls.</p>
+            <p class="about-us-text">Rammed earth has been used in construction for thousands of years, with evidence of its use
+                dating as far back as the Neolithic Period. Commonly used especially in China, the technique
+                was applied to both ancient monuments and vernacular architecture, with the Great Wall 
+                utilizing the technique. Though interest in rammed earth declined in the 20th century, some 
+                continue to advocate its use today, citing its sustainability in comparison to more modern 
+                construction methods. Most notably, rammed earth structures use local materials, meaning they 
+                have low embodied energy and produce little waste.</p>
+            <p class="about-us-text">If you would like further information, or a question is bugging you, feel free to contact us!</p>
+        </div>
+    </section>
+    <section id="ourWork" class="hide">
+        <div class="slider-container">
+            <div class="slide">
+                <img class="slide-img" src="img/rammedhouse1.jpg" alt="our-projects-img">
+            </div>
+            <div class="slide">
+                <img class="slide-img" src="img/rammedhouse2.jpg" alt="our-projects-img">
+            </div>
+            <div class="slide">
+                <img class="slide-img" src="img/rammedhouse3.jpg" alt="our-projects-img">
+            </div>
+            <div class="slide">
+                <img class="slide-img" src="img/rammedhouse4.jpg" alt="our-projects-img">
+            </div>
+            <div class="slide">
+                <img class="slide-img" src="img/rammedhouse5.jpg" alt="our-projects-img">
+            </div>
+            <div class="slide">
+                <img class="slide-img" src="img/rammedhouse6.jpg" alt="our-projects-img">
+            </div>
+        </div>
+        <div class="slide-btn-container">
+            <button class="previous-btn"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="next-btn"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+        </div>
+    </section>
+    <section id="contact" class="hide">
+        <div class="contact-container">
+            <form class="form-contact" action="https://formsubmit.co/7a2193a3f39ceb00ac7dd28ceeff8964" method="POST">
+                <input class="input" type="text" name="name" autocomplete="off" placeholder="Your Name" required>
+                <input class="input" type="email" name="email" autocomplete="off" placeholder="Your Email" required>
+                <textarea class="input-text" name="message" rows="10" cols="30" placeholder="Your message for us."></textarea>
+                <button class="send-message" type="submit">Contact Us</button>
+           </form>
+        </div>
+    </section>
+    <footer class="hide">
+        <i class="fa fa-facebook-square mediaIcons colorF" aria-hidden="true"></i>
+        <i class="fa fa-instagram mediaIcons colorI" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square mediaIcons colorT" aria-hidden="true"></i>
+        <p>Rammed Earth Constructions © <span id="date"></span></p>
+        <a href="#main" class="scrollUp scroll"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+    </footer>
+</body>
+</html>
